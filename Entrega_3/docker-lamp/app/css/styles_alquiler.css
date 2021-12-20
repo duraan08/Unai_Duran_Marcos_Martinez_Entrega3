@@ -1,0 +1,102 @@
+#cabecera, #pie, a{
+    color: white;
+}
+
+.titulo{
+    font-size: 100px;
+    font-family: helvetica;
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#navegacion{
+    
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: left;
+}
+
+#navegacion li{
+    list-style: none;
+    padding: 5px;
+    display: inline-block
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.CS{
+    padding: 5px;
+    border: 0; 
+    color: white;
+    background: none;
+    cursor: pointer;
+    position:relative;
+    font-weight: bold;
+    text-align : center;
+    left: auto; 
+    font-size: medium;
+}
+
+#pie{
+    margin-top: auto;
+    text-align: center;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cursos{
+    font-size: 85px;
+    text-align: center;
+    color: white;
+}
+
+.is{
+    padding: 5px;
+    color: white; 
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    bottom: 5px; 
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"], input[type="number"], .planetas{
+    outline: none;
+    padding: 20px;
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.alqui{
+    padding: 10px;
+    color: white;
+    background: turquoise;
+    display: block;
+    width: 320px;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;  
+    margin : 20px auto; 
+}
+
+.fecha{
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0;
+
+}

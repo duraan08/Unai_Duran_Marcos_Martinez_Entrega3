@@ -1,0 +1,88 @@
+#cabecera, #pie, a{
+    color: white;
+    text-align: center;
+}
+
+.titulo{
+    color : white; 
+    font-size: 100px;
+    font-family: helvetica;
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#navegacion{
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: left;
+}
+
+#navegacion li{
+    list-style: none;
+    padding: 5px;
+    display: inline-block
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.CS{
+    padding: 5px;
+    border: 0; 
+    color: white;
+    background: none;
+    cursor: pointer;
+    position:relative;
+    font-weight: bold;
+    text-align : center;
+    left: auto; 
+    font-size: medium;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.is{
+    padding: 5px;
+    color: white; 
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    bottom: 5px; 
+}
+
+.t{
+    margin : auto;
+    text-align: center; 
+    background-color: black;
+}
+
+.tTabla{
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size : 35px; 
+    color : yellowgreen;
+}
+
+.iTabla{
+    font-family: Helvetica;
+    font-size : 25px; 
+    color : white; 
+    font-weight: bold;
+    font-style: italic;
+}
+
+.id{
+    font-size: large;
+    background: none;
+    color : white; 
+    cursor: pointer;
+    border: 0; 
+}
